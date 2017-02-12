@@ -1,0 +1,6 @@
+<h2>Pokemon</h2>
+<ul>
+    <li ng-repeat="pokemon in $ctrl.pokemonList" ng-click="$ctrl.selectPokemon(pokemon)">
+        <span>{{pokemon.id}}</span> {{pokemon.name}} | {{pokemon.type}}
+    </li>
+</ul>

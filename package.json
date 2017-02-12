@@ -1,0 +1,16 @@
+{
+  "name": "pokedex-microfrontends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.module.js",
+  "dependencies": {
+    "https-server": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bgoerdt",
+  "license": "ISC"
+}
