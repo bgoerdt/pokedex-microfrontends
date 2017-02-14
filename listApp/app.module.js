@@ -1,1 +1,0 @@
-angular.module('pokemonList.app', []);
